@@ -1,0 +1,9 @@
+.slider-bk .slick-arrow{
+    background: #fab005 !important;
+    border-radius: 30px;
+    height: 30px;
+    width: 30px;
+}
+.slider-bk .slick-arrow:hover{
+    background: red !important;
+}

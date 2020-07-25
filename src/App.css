@@ -1,0 +1,406 @@
+/*checkout start*/
+.summary_bottom_size{
+    margin-bottom: 1.4rem;
+}
+.header1--white-mode {
+    background-color: #fff;
+    color: #888;
+    top: 0;
+}
+.header1, .my-list {
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.07);
+    font-size: 14px;
+    font-weight: lighter;
+    height: 60px;
+    /* position: fixed; */
+    width: 100%;
+    z-index: 1000;
+}
+.header1 .header1-item, .my-list .header1-item {
+    display: inline-block;
+    height: 60px;
+    vertical-align: middle;
+}
+.header1-item--checkout-promise {
+    font-size: 14px;
+    float: right;
+    margin-right: 30px;
+    margin-top: 22px;
+}
+.checkout-promise-item {
+    background-repeat: no-repeat;
+    background-size: 14px;
+    display: inline-block;
+    margin-left: 40px;
+    padding-left: 24px;
+}
+
+/*block*/
+._1fM65H._2RMAtd {
+    color: #fff;
+    background-color: #2874f0;
+}
+._2RMAtd {
+    height: 48px;
+    text-transform: uppercase;
+    color: #878787;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 24px;
+    border-radius: 2px 2px 0 0;
+}
+._1fM65H ._1Tmvyj {
+    background-color: #fff;
+    position: relative;
+    top: -2px;
+}
+._1Tmvyj {
+    font-size: 12px;
+    color: #2874f0;
+    background-color: #f0f0f0;
+    border-radius: 2px;
+    padding: 3px 7px;
+    vertical-align: baseline;
+    margin-right: 17px;
+}
+._30BGxP {
+    padding: 26px 20px 18px 50px;
+}
+._2gCfOf {
+    margin-bottom: 24px;
+}
+.checkout-login__msg {
+    color: #888;
+    margin-bottom: 24px;
+}
+.login-phone__input {
+    box-sizing: border-box;
+    font-size: 14px;
+    padding-left: 68px;
+    width: 100%;
+}
+.login-phone .input {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    cursor: text;
+    font-size: 14px;
+    outline: 0;
+    padding: 12px 10px;
+    margin-bottom: 1.4rem;
+}
+._3VM3wx {
+    color: #878787;
+    font-size: 12px;
+    font-weight: 400;
+}
+._1eS5je {
+    color: #2874f0;
+}
+a, img {
+    text-decoration: none;
+    color: inherit;
+    border: none;
+    outline: none;
+}
+._1-GI4s {
+    margin-top: 24px;
+}
+._2AkmmA._7UHT_c {
+    background: #fb641b;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.2);
+    border: none;
+    color: #fff;
+}
+.T7K48m {
+    font-family: inherit;
+    width: 100%;
+    height: 48px;
+    font-size: 15px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+    text-transform: uppercase;
+}
+._2AkmmA {
+    display: inline-block;
+    border-radius: 2px;
+    color: #212121;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-weight: 500;
+    transition: box-shadow .2s ease;
+    vertical-align: super;
+    background: #fff;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+    border: 1px solid #e0e0e0;
+}
+._1_qmw3 {
+    vertical-align: middle;
+    width: 20px!important;
+    margin-left: -30px!important;
+    margin-right: 10px!important;
+    display: none;
+}
+._2VTdOs {
+    position: relative;
+    margin: 0 auto;
+    width: 50px;
+}
+
+/*address checkout*/
+.address_bk_checkout{
+    margin-top: 10px;
+    padding: 26px 20px 18px 50px;
+    margin-bottom: 1.4rem;
+}
+.address_field_bk .input {
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    color: #333;
+    cursor: text;
+    font-size: 14px;
+    outline: 0;
+    padding: 12px 10px;
+    width: 100%;
+    /* margin-bottom: 1.4rem; */
+}
+._3XXwRR {
+    padding-left: 13px;
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+._2dwzAy {
+    font-size: 12px;
+    color: #878787;
+    margin-bottom: 10px;
+}
+._3qg3HS {
+    margin-bottom: 16px;
+    width: 100%;
+}
+._2tcMoY {
+    border-bottom: none;
+    display: inline-block;
+    margin-right: 32px;
+}
+._8J-bZE {
+    cursor: pointer;
+}
+._2haq-9 {
+    visibility: hidden;
+    position: absolute;
+}
+._2tcMoY ._6ATDKp {
+    margin-top: 2px;
+    margin-left: 0;
+}
+._6ATDKp {
+    display: inline-block;
+    border: 2px solid #979797;
+    border-radius: 100%;
+    height: 16px;
+    width: 16px;
+    position: relative;
+    vertical-align: top;
+    margin-top: 3px;
+    cursor: pointer;
+}
+._2tcMoY ._2o59RR {
+    margin-left: 12px;
+    width: auto;
+}
+._2o59RR {
+    display: inline-block;
+    margin-left: 18px;
+    /* width: calc(100% - 34px); */
+}
+.EqjTfe {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+._237M5J {
+    font-weight: 500;
+    color: #2874f0;
+    background-color: transparent;
+    border: none;
+    margin-left: 20px;
+    padding-right: 0;
+    box-shadow: none;
+}
+/*order summary*/
+.summary_order_list{
+    margin-bottom: 2rem !important;
+}
+._3vIvU_bk{
+    padding: 0 24px 12px;
+    vertical-align: top;
+    min-height: 112px;
+    -webkit-flex: 1 1;
+    -ms-flex: 1 1;
+    flex: 1 1;
+    overflow: hidden;
+}
+._3vIvU_bk .title{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 20px;
+}
+._3vIvU_bk .seller_bk{
+    margin-top: 8px;
+    color: #878787;
+    font-size: 14px;
+    height: 20px;
+}
+._3vIvU_bk .price_bk h5{
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 500;
+    margin: 12px 8px 0 0;
+}
+.bzD9az {
+    font-size: 14px;
+    color: #212121;
+    line-height: 1.4;
+}
+._3o5jSD {
+    color: #388e3c;
+}
+.order_confirm_email{
+    height: 80px;
+    border-top: 1px solid #f0f0f0;
+    align-items: center;
+}
+#to-payment ._continue{
+    height: 48px;
+    width: 200px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    float: right;
+    background: #fb641b;
+    border: none;
+    color:#fff
+}
+#to-payment ._continue:hover {
+    box-shadow: 0 4px 6px 0 rgba(0,0,0,.12);
+}
+._3md1dr {
+    display: flex;
+    color: #212121;
+    align-items: center;
+    width: 100px;
+}
+._3md1dr .wNrY5O:disabled {
+    color: #c2c2c2;
+    border-color: #e0e0e0;
+    cursor: auto;
+}
+._3md1dr .wNrY5O {
+    width: 28px;
+    height: 28px;
+    background: linear-gradient(#fff,#f9f9f9);
+    display: inline-block;
+    border: 1px solid #c2c2c2;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 50%;
+    padding-top: 1px;
+    line-height: 0;
+}
+._3md1dr ._2zH4zg {
+    display: inline-block;
+    padding: 3px 6px;
+    width: calc(100% - 60px);
+    height: 100%;
+    width: 46px;
+    height: 28px;
+    border-radius: 2px;
+    background-color: #fff;
+    border: 1px solid #c2c2c2;
+    margin: 0 5px;
+}
+._3md1dr ._2zH4zg ._2csFM9 {
+    border: none;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 500;
+    vertical-align: middle;
+    text-align: center;
+}
+.summary_price_cart_details{
+    display: block;
+    text-transform: uppercase;
+    padding: 13px 24px;
+    font-weight: 500;
+    color: #878787;
+    min-height: 47px;
+    border-radius: 2px 2px 0 0;
+    border-bottom: 1px solid #f0f0f0;
+    font-size: 16px;
+}
+.payment-confirm-tip {
+    padding: 10px 0;
+    white-space: pre-wrap;
+    font-size: 14px;
+    color: #212121;
+    letter-spacing: 0;
+}
+.card_details_parent{
+    display: block !important;
+}
+.card_details_parent .credit_card_details{
+background-color: #f5faff;
+border-bottom: 1px solid #f0f0f0;
+padding: 16px 25px;
+}
+/*end checkout*/
+
+
+/* CSS for Credit Card Payment form */
+.credit-card-box .panel-title {
+    display: inline;
+    font-weight: bold;
+}
+.credit-card-box .form-control.error {
+    border-color: red;
+    outline: 0;
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075),0 0 8px rgba(255,0,0,0.6);
+}
+.credit-card-box label.error {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box .payment-errors {
+  font-weight: bold;
+  color: red;
+  padding: 2px 8px;
+  margin-top: 2px;
+}
+.credit-card-box label {
+    display: block;
+}
+/* The old "center div vertically" hack */
+.credit-card-box .display-table {
+    display: table;
+}
+.credit-card-box .display-tr {
+    display: table-row;
+}
+.credit-card-box .display-td {
+    display: table-cell;
+    vertical-align: middle;
+    width: 50%;
+}
+/* Just looks nicer */
+.credit-card-box .panel-heading img {
+    min-width: 180px;
+}
+
+/* End Credit Card Payment form */

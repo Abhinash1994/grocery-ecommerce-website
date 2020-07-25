@@ -1,0 +1,109 @@
+.categories-wrapper {
+    position: relative;
+    top: 102px;
+    padding-bottom: 70px;
+}
+.store-categories-list__item {
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 5px 15px;
+    padding: 8px 0;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.store-categories-list__item {
+    border-bottom: 1px solid #dbdbdb;
+    border-top: 1px solid #dbdbdb;
+    border-radius: 0;
+    margin: 8px 0;
+    min-height: 140px;
+}
+.store-categories-list__item .category-image {
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+.store-categories-list__item .category-image {
+    height: 120px;
+    width: 40%;
+}
+.store-categories-list__item .category-image>div {
+    height: 100%;
+}
+.img-loader__wrapper {
+    height: 100%;
+    position: relative;
+}
+.img-loader__img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    transition: opacity .4s ease-in-out;
+    max-width: 100%;
+    max-height: 100%;
+}
+.img-loader__img--shown {
+    opacity: 1;
+}
+.img-loader__placeholder--category-card {
+    height: 90px;
+    width: 90px;
+}
+.store-categories-list__item .category-name {
+    box-sizing: border-box;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 56px 0 12px;
+    width: 60%;
+}
+.store-categories-list__item .category-name__discount {
+    color: #54b226;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+}
+.store-categories-list__item .category-name__name {
+    color: #333;
+    font-weight: 500;
+    margin-bottom: 4px;
+}
+.store-categories-list__item .category-name__description {
+    color: #888;
+    font-size: 10px;
+    line-height: 1.6;
+    max-height: 3.2em;
+    overflow: hidden;
+
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+}
+
+.store-categories-list__item .category-icon {
+    -ms-flex-align: center;
+    align-items: center;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 30px;
+    height: 100%;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+
+    border-left: 1px solid #f8f8f8;
+    color: #e96125;
+    width: 40px;
+}
