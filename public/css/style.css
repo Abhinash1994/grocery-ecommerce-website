@@ -2435,7 +2435,7 @@ span.last {
     font-size: 2.5em;
 }
 .m-wthree {
-    width: 50%;
+    width: 100%;
     float: left;
     margin-bottom: 2em;
 }
@@ -3146,7 +3146,7 @@ nav.navbar.navbar-default {
     width: 73%;
 }
 .m-wthree {
-    width: 50%;
+    width: 100%;
     float: left;
     margin-bottom: 1em;
     padding: 0 3px;
