@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Carousel from './Carousel';
 import Kitchenitem from './kitechen-info';
 import Product from '../product';
+import { Grid } from '@material-ui/core';
+import Slider from "react-slick";
 
 export default class Home extends Component {
     constructor(props) {
@@ -36,13 +38,27 @@ export default class Home extends Component {
             <Product item={product}/>
         ));
 
+        var settings = {
+            dots: false,
+            infinite: true,
+            autoplay: false,
+            speed: 2000,
+            autoplaySpeed: 2000,
+            slidesToShow: 2,
+            slidesToScroll: 2
+        };
+
         return (
             <div>
             
                 <Carousel />
-                <div>
+                <Grid container >
+                <Grid item xs={12} sm={12} md={12} lg={12} xl={12} style={{ marginTop: '9rem' }}>
+                <Slider {...settings}>
                 {renderProduct}
-                </div>
+               </Slider>
+                </Grid>
+                </Grid>
                 <Kitchenitem />
 
             </div>

@@ -5,7 +5,7 @@ export default class Product extends Component {
 
     render() {
         return (
-            <div className="col-md-3 m-wthree">
+            <div className="col-12 m-wthree">
                 <div className="col-m">
                     <Link to="/" data-toggle="modal" data-target="#myModal1" className="offer-img">
                         <img src={this.props.item.imgUrl} className="img-responsive" alt="" />
