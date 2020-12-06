@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import Carousel from './Carousel';
 import Kitchenitem from './kitechen-info';
+import Menu from './Menu';
 import Product from '../product';
 import { Grid } from '@material-ui/core';
 import Slider from "react-slick";
@@ -52,6 +53,7 @@ export default class Home extends Component {
             <div>
             
                 <Carousel />
+                <Menu />
                 <Grid container >
                 <Grid item xs={12} sm={12} md={12} lg={12} xl={12} style={{ marginTop: '9rem' }}>
                 <Slider {...settings}>
